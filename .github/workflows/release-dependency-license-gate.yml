@@ -14,6 +14,6 @@ jobs:
   dependency-license-audit:
     uses: Waizusora/Wicofe-Tools/.github/workflows/cross-repository-dependency-audit.yml@ad1175c000c765834045a0035fae3cb0b4a49374
     with:
-      tools_ref: 63e9b3ccc4c4023e2abec65a3aeccf9953fd8f2a
+      tools_ref: b459eb9dd80b265183bff4dc518d82ad73321150
     permissions:
       contents: read
