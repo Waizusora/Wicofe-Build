@@ -5,6 +5,9 @@ This directory documents whole-system build orchestration and toolchain infrastr
 ## Architecture
 - [Build system architecture 0.1](BUILD_SYSTEM_ARCHITECTURE_0.1.md) — draft design for dependency graphs, target-aware builds, reproducibility, CI and artifact handoff.
 
+## CI and release compliance
+- [Release dependency license gate](../.github/workflows/release-dependency-license-gate.yml) — reusable/tag-triggered strict cross-repository Policy 0.2 gate; currently blocks on unknown coverage and unapproved build-time dependencies.
+
 ## Scope
 - Cross-repository build graph and orchestration.
 - Pinned compiler, linker, bootloader, and image toolchains.
