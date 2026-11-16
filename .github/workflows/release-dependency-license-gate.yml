@@ -1,0 +1,17 @@
+name: Release dependency license gate
+
+on:
+  workflow_call:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: read
+
+jobs:
+  dependency-license-audit:
+    uses: Waizusora/Wicofe-Tools/.github/workflows/cross-repository-dependency-audit.yml@main
+    permissions:
+      contents: read
