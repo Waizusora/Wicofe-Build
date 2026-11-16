@@ -9,6 +9,9 @@ This directory documents whole-system build orchestration and toolchain infrastr
 ## CI and release compliance
 - [Release dependency license gate](../.github/workflows/release-dependency-license-gate.yml) — reusable/tag-triggered strict cross-repository Policy 0.2 gate; currently blocks on unknown coverage and unapproved build-time dependencies.
 
+## Whole-system product direction
+- [Wicofe system delivery and installation direction 0.1](https://github.com/Waizusora/Wicofe-Docs/blob/main/SYSTEM_DELIVERY_AND_INSTALLATION_DIRECTION_0.1.md) — planned flexible stable deliveries and out-of-band critical security releases; not a completed release pipeline.
+
 ## Scope
 - Cross-repository build graph and orchestration.
 - Pinned compiler, linker, bootloader, and image toolchains.
