@@ -20,7 +20,7 @@ Individual repositories own their local build definitions and tests. Wicofe-Buil
 
 ## Status
 
-Initial repository baseline; no complete end-to-end OS build pipeline is claimed.
+Initial repository baseline; no complete end-to-end OS build pipeline is claimed. A reusable release dependency-license gate is available at `.github/workflows/release-dependency-license-gate.yml`; it invokes the strict 29-repository auditor from Wicofe-Tools. It is not a complete build/release pipeline and currently blocks until unresolved repository coverage and dependency approvals are recorded.
 
 ## License
 
