@@ -12,8 +12,8 @@ permissions:
 
 jobs:
   dependency-license-audit:
-    uses: Waizusora/Wicofe-Tools/.github/workflows/cross-repository-dependency-audit.yml@2a18f2b4d298ce4d53d29c1f6556f957ab93203b
+    uses: Waizusora/Wicofe-Tools/.github/workflows/cross-repository-dependency-audit.yml@cccc4c197687ce8fd629f9b9d8a7d95d4e89cddc
     with:
-      tools_ref: 2a18f2b4d298ce4d53d29c1f6556f957ab93203b
+      tools_ref: cccc4c197687ce8fd629f9b9d8a7d95d4e89cddc
     permissions:
       contents: read
