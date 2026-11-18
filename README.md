@@ -18,6 +18,10 @@ Build steps should be deterministic, documented, and scriptable. Pin tool versio
 
 Individual repositories own their local build definitions and tests. Wicofe-Build coordinates whole-system builds and produces inputs for Wicofe-Image.
 
+## Frenit artifact integration
+
+[Frenit](https://github.com/Waizusora/Frenit) is the canonical init-system artifact. Wicofe-Build owns whole-system orchestration, not Frenit's source or CLI. A future target build must pin the Frenit commit, target triple, Rust toolchain, dependency graph and artifact hash, then publish ABI compatibility metadata. This pipeline is planned; no native Wicofe Frenit artifact handoff is currently verified. Follow [WIC-SPEC-BOOT-FRENIT-001](https://github.com/Waizusora/Wicofe-Specs/blob/main/boot/FRENIT_INTEGRATION_CONTRACT_0.1.md).
+
 ## Status
 
 Initial repository baseline; no complete end-to-end OS build pipeline is claimed. A reusable release dependency-license gate is available at `.github/workflows/release-dependency-license-gate.yml`; it invokes the strict 29-repository auditor from Wicofe-Tools. It is not a complete build/release pipeline and currently blocks until unresolved repository coverage and dependency approvals are recorded.
