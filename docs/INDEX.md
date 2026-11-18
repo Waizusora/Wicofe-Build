@@ -4,7 +4,7 @@ This directory documents whole-system build orchestration and toolchain infrastr
 
 ## Architecture
 - [Build system architecture 0.1](BUILD_SYSTEM_ARCHITECTURE_0.1.md) — draft design for dependency graphs, target-aware builds, reproducibility, CI and artifact handoff.
-- [Osynit build integration 0.1](OSYNIT_BUILD_INTEGRATION_0.1.md) — target-aware build, artifact metadata, CI evidence and image handoff.
+- [Frenit build integration 0.1](FRENIT_BUILD_INTEGRATION_0.1.md) — target-aware Frenit artifact build, provenance, ABI metadata and image handoff.
 
 ## CI and release compliance
 - [Release dependency license gate](../.github/workflows/release-dependency-license-gate.yml) — reusable/tag-triggered strict cross-repository Policy 0.2 gate; currently blocks on unknown coverage and unapproved build-time dependencies.
