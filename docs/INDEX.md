@@ -10,7 +10,7 @@ This directory documents whole-system build orchestration and toolchain infrastr
 - [Release dependency license gate](../.github/workflows/release-dependency-license-gate.yml) — reusable/tag-triggered strict cross-repository Policy 0.2 gate; currently blocks on unknown coverage and unapproved build-time dependencies.
 
 ## Whole-system product direction
-- [Wicofe system delivery and installation direction 0.1](https://github.com/Waizusora/Wicofe-Docs/blob/main/SYSTEM_DELIVERY_AND_INSTALLATION_DIRECTION_0.1.md) — planned flexible stable deliveries and out-of-band critical security releases; not a completed release pipeline.
+- [Wicofe system delivery and installation direction 0.1](https://github.com/Waizusora/Wicofe-Doc/blob/main/SYSTEM_DELIVERY_AND_INSTALLATION_DIRECTION_0.1.md) — planned flexible stable deliveries and out-of-band critical security releases; not a completed release pipeline.
 
 ## Scope
 - Cross-repository build graph and orchestration.
@@ -25,5 +25,5 @@ Each component repository owns its local build and test definitions. Wicofe-Buil
 ## Reproducibility
 Pin tools and source revisions, isolate generated artifacts, verify downloads, and make failures diagnosable. Never download and execute unverified tools during release builds.
 
-- [Central documentation index](https://github.com/Waizusora/Wicofe-Docs/blob/main/INDEX.md)
-- [Repository documentation map](https://github.com/Waizusora/Wicofe-Docs/blob/main/REPOSITORY_DOCUMENTATION_MAP.md)
+- [Central documentation index](https://github.com/Waizusora/Wicofe-Doc/blob/main/INDEX.md)
+- [Repository documentation map](https://github.com/Waizusora/Wicofe-Doc/blob/main/REPOSITORY_DOCUMENTATION_MAP.md)
