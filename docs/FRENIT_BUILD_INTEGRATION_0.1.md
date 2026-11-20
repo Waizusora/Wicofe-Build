@@ -3,7 +3,7 @@
 - **Status:** Proposed build integration; no native Wicofe Frenit artifact is verified.
 - **Owner:** Wicofe-Build for whole-system orchestration; Frenit for component-local source/build/tests.
 - **Component:** [Frenit — Free Init](https://github.com/Waizusora/Frenit).
-- **Cross-component contract:** [WIC-SPEC-BOOT-FRENIT-001](https://github.com/Waizusora/Wicofe-Specs/blob/main/boot/FRENIT_INTEGRATION_CONTRACT_0.1.md).
+- **Cross-component contract:** [WIC-SPEC-BOOT-FRENIT-001](https://github.com/Waizusora/Wicofe-Spec/blob/main/boot/FRENIT_INTEGRATION_CONTRACT_0.1.md).
 - **Date:** 2026-11-18
 
 ## 1. Purpose
@@ -16,7 +16,7 @@ Define how the Frenit Rust userspace component will participate in a Wicofe syst
 - Wicofe-Build pins Frenit source revisions and toolchains, schedules target builds, records artifacts and validates build-graph dependencies.
 - Wicofe-ABI owns public userspace ABI definitions.
 - Wicofe-Image stages validated artifacts and manifest metadata into the root filesystem.
-- Wicofe-Tests owns cross-repository conformance and boot integration suites.
+- Wicofe-Test owns cross-repository conformance and boot integration suites.
 
 ## 3. Target matrix
 
